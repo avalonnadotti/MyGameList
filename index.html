@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Jogos</title>
+</head>
+<body>
+    <h1>Cadastro de Jogos</h1>
+    
+    <form>
+        <!-- Campo Nome -->
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br><br>
+        
+        <!-- Lista de Consoles -->
+        <label for="console">Console:</label><br>
+        <select id="console" name="console">
+            <option value="empty"></option>
+            <option value="nes">Nes</option>
+            <option value="snes">SNES</option>
+            <option value="master-system">Master System</option>
+            <option value="mega-drive">Mega Drive</option>
+            <option value="genesis">Genesis</option>
+            <option value="sega-cd">Sega CD</option>
+            <option value="nintendo-64">Nintendo 64</option>
+            <option value="game-cube">Game Cube</option>
+            <option value="ps1">PlayStation 1</option>
+            <option value="ps2">PlayStation 2</option>
+            <option value="ps3">PlayStation 3</option>
+            <option value="game-boy">Game Boy</option>
+            <option value="nintendo-ds">Nintendo DS</option>
+            <option value="sega-saturn">Sega Saturn</option>
+            <option value="game-gear">Game Gear</option>
+            <option value="dreamcast">Dreamcast</option>
+            <option value="virtual-boy">Virtual Boy</option>
+            <option value="neo-geo">Neo Geo</option>
+            <option value="pc">PC</option>
+            <option value="xbox-360">XBOX 360</option>
+            <option value="arcade">Arcade</option>
+            <option value="wii">Wii</option>
+            <option value="atari">Atari</option>
+            <option value="switch">Switch</option>
+            <option value="outro">Outro</option>
+        </select><br><br>
+        
+        <!-- Lista de Gêneros -->
+        <label for="genero">Gênero:</label><br>
+        <select id="genero" name="genero">
+            <option value="empty"></option>
+            <option value="acao">Ação</option>
+            <option value="briga-de-rua">Briga de Rua</option>
+            <option value="card-game">Card Game</option>
+            <option value="luta">Luta</option>
+            <option value="corrida">Corrida</option>
+            <option value="ritmo">Ritmo</option>
+            <option value="estrategia">Estratégia</option>
+            <option value="fps">FPS</option>
+            <option value="rpg">RPG</option>
+            <option value="visual-novel">Visual Novel</option>
+            <option value="esporte">Esporte</option>
+            <option value="plataforma">Plataforma</option>
+            <option value="puzzle">Puzzle</option>
+            <option value="adventure">Adventure</option>
+            <option value="simulacao">Simulação</option>
+            <option value="outro">Outro</option>
+        </select><br><br>
+        
+        <!-- Lista de Tipos 1 -->
+        <label for="tipo1">Tipo 1:</label><br>
+        <select id="tipo1" name="tipo1">
+            <option value="empty"></option>
+            <option value="2d">2D</option>
+            <option value="rpg-turnos">RPG de Turnos</option>
+            <option value="narrativo">Narrativo</option>
+            <option value="side-scroller">Side-Scroller</option>
+            <option value="action-rpg">Action RPG</option>
+            <option value="isometrico">Isométrico</option>
+            <option value="ocidental">Ocidental</option>
+            <option value="oriental">Oriental</option>
+            <option value="run-gun">Run & Gun</option>
+            <option value="explorativo">Explorativo</option>
+            <option value="rpg-plataforma">RPG Plataforma</option>
+            <option value="vertical">Vertical</option>
+            <option value="combate">Combate</option>
+            <option value="sobrevivencia">Sobrevivência</option>
+            <option value="horror">Horror</option>
+            <option value="point-click">Point & Click</option>
+            <option value="combativo">Combativo</option>
+            <option value="rail-shooter">Rail Shooter</option>
+            <option value="tabuleiro">Tabuleiro</option>
+            <option value="luta-2d">Luta 2D</option>
+            <option value="hack-slash">Hack & Slash</option>
+            <option value="top-view">Top-View</option>
+            <option value="kart">Kart</option>
+            <option value="online">Online</option>
+            <option value="fps">FPS</option>
+            <option value="bullet-hell">Bullet Hell</option>
+            <option value="mundo-aberto">Mundo Aberto</option>
+            <option value="exploracao">Exploração</option>
+            <option value="collectathon">Collectathon</option>
+            <option value="esporte">Esporte</option>
+            <option value="roguelike">Roguelike</option>
+            <option value="rogue">Rogue</option>
+            <option value="souls">Souls</option>
+            <option value="metroidvania">Metroidvania</option>
+            <option value="2-5d">2.5D</option>
+            <option value="classico">Clássico</option>
+            <option value="retro">Retro</option>
+        </select><br><br>
+        
+        <!-- Lista de Tipos 2 -->
+        <label for="tipo2">Tipo 2:</label><br>
+        <select id="tipo2" name="tipo2">
+            <option value="empty"></option>
+            <option value="2d">2D</option>
+            <option value="rpg-turnos">RPG de Turnos</option>
+            <option value="narrativo">Narrativo</option>
+            <option value="side-scroller">Side-Scroller</option>
+            <option value="action-rpg">Action RPG</option>
+            <option value="isometrico">Isométrico</option>
+            <option value="ocidental">Ocidental</option>
+            <option value="oriental">Oriental</option>
+            <option value="run-gun">Run & Gun</option>
+            <option value="explorativo">Explorativo</option>
+            <option value="rpg-plataforma">RPG Plataforma</option>
+            <option value="vertical">Vertical</option>
+            <option value="combate">Combate</option>
+            <option value="sobrevivencia">Sobrevivência</option>
+            <option value="horror">Horror</option>
+            <option value="point-click">Point & Click</option>
+            <option value="combativo">Combativo</option>
+            <option value="rail-shooter">Rail Shooter</option>
+            <option value="tabuleiro">Tabuleiro</option>
+            <option value="luta-2d">Luta 2D</option>
+            <option value="hack-slash">Hack & Slash</option>
+            <option value="top-view">Top-View</option>
+            <option value="kart">Kart</option>
+            <option value="online">Online</option>
+            <option value="fps">FPS</option>
+            <option value="bullet-hell">Bullet Hell</option>
+            <option value="mundo-aberto">Mundo Aberto</option>
+            <option value="exploracao">Exploração</option>
+            <option value="collectathon">Collectathon</option>
+            <option value="esporte">Esporte</option>
+            <option value="roguelike">Roguelike</option>
+            <option value="rogue">Rogue</option>
+            <option value="souls">Souls</option>
+            <option value="metroidvania">Metroidvania</option>
+            <option value="2-5d">2.5D</option>
+            <option value="classico">Clássico</option>
+            <option value="retro">Retro</option>
+        </select><br><br>
+        
+        <!-- Lista de Tipos 3 -->
+        <label for="tipo3">Tipo 3:</label><br>
+        <select id="tipo3" name="tipo3">
+            <option value="empty"></option>
+            <option value="2d">2D</option>
+            <option value="rpg-turnos">RPG de Turnos</option>
+            <option value="narrativo">Narrativo</option>
+            <option value="side-scroller">Side-Scroller</option>
+            <option value="action-rpg">Action RPG</option>
+            <option value="isometrico">Isométrico</option>
+            <option value="ocidental">Ocidental</option>
+            <option value="oriental">Oriental</option>
+            <option value="run-gun">Run & Gun</option>
+            <option value="explorativo">Explorativo</option>
+            <option value="rpg-plataforma">RPG Plataforma</option>
+            <option value="vertical">Vertical</option>
+            <option value="combate">Combate</option>
+            <option value="sobrevivencia">Sobrevivência</option>
+            <option value="horror">Horror</option>
+            <option value="point-click">Point & Click</option>
+            <option value="combativo">Combativo</option>
+            <option value="rail-shooter">Rail Shooter</option>
+            <option value="tabuleiro">Tabuleiro</option>
+            <option value="luta-2d">Luta 2D</option>
+            <option value="hack-slash">Hack & Slash</option>
+            <option value="top-view">Top-View</option>
+            <option value="kart">Kart</option>
+            <option value="online">Online</option>
+            <option value="fps">FPS</option>
+            <option value="bullet-hell">Bullet Hell</option>
+            <option value="mundo-aberto">Mundo Aberto</option>
+            <option value="exploracao">Exploração</option>
+            <option value="collectathon">Collectathon</option>
+            <option value="esporte">Esporte</option>
+            <option value="roguelike">Roguelike</option>
+            <option value="rogue">Rogue</option>
+            <option value="souls">Souls</option>
+            <option value="metroidvania">Metroidvania</option>
+            <option value="2-5d">2.5D</option>
+            <option value="classico">Clássico</option>
+            <option value="retro">Retro</option>
+        </select><br><br>
+        
+        <!-- Campo Data de Lançamento -->
+        <label for="data-lancamento">Data de Lançamento:</label><br>
+        <input type="date" id="data-lancamento" name="data-lancamento"><br><br>
+        
+        <!-- Campo Data de Termino -->
+        <label for="data-Termino">Data de Termino:</label><br>
+        <input type="date" id="data-Termino" name="data-Termino"><br><br>
+        
+        <!-- Campo Tempo HLTB -->
+        <label for="tempo-hltb">Tempo HLTB (horas):</label><br>
+        <input type="number" id="tempo-hltb" name="tempo-hltb" min="0"><br><br>
+        
+        <!-- Campo Tempo Pessoal -->
+        <label for="tempo-pessoal">Tempo Pessoal (horas):</label><br>
+        <input type="number" id="tempo-pessoal" name="tempo-pessoal" min="0"><br><br>
+              
+        <!-- Campo Nota Metacritic -->
+        <label for="nota-metacritic">Nota Metacritic:</label><br>
+        <input type="text" id="nota-metacritic" name="nota-metacritic" min="0"><br><br>
+        
+        <!-- Campo Nota Pessoal -->
+        <label for="nota-pessoal">Nota Pessoal:</label><br>
+        <input type="text" id="nota-pessoal" name="nota-pessoal" min="0" max="999999"><br><br>
+        
+        <!-- Campo Finalizado -->
+        <label for="finalizado">Finalizado:</label>
+        <input type="checkbox" id="finalizado" name="finalizado"><br><br>
+        
+        <!-- Campo Review Pessoal -->
+        <label for="review-pessoal">Review Pessoal:</label><br>
+        <textarea id="review-pessoal" name="review-pessoal" rows="4" cols="50"></textarea><br><br>
+        
+        <!-- Capa / Logo -->
+        <label>Capa / Logo</label><br><br>
+        <input id="file-capa" type="file" accept=".png, .pdf"><br><br>
+
+        <!-- Imagem de Fechamento -->
+        <label>Imagem de Fechamento</label><br><br>
+        <input id="file-final" type="file" accept=".png, .pdf"><br><br>
+
+        <!-- Manual -->
+        <label>Manual</label><br><br>
+        <input id="file-manual" type="file" accept=".png, .pdf"><br><br>
+
+
+        <!-- Botões Cadastrar e Limpar -->
+        <button type="button" onclick="cadastrar()">Cadastrar</button>
+        <button type="reset">Limpar</button>
+    </form>
+    
+    <script>
+        function cadastrar() {
+            alert('Cadastrar função ainda não implementada.');
+        }
+    </script>
+</body>
+</html>
